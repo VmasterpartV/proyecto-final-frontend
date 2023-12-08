@@ -172,7 +172,7 @@
         min-width: 96%;
     }
 
-    .cards, .card2-row, .stats, .team-cards, .news-cont, .suscribe .ancho, .sus-data, footer .ancho, .copy .ancho, .buttons2 {
+    .cards, .card2-row, .stats, .team-cards, .news-cont, .suscribe .ancho, .sus-data, footer .ancho, .copy .ancho, .buttons2, .quest-cont {
         flex-direction: column;
         align-items: center;
     }
@@ -283,5 +283,21 @@
 
     .circulo2 i {
         font-size: 15px !important;
+    }
+
+    .questions {
+        width: 100%;
+        text-align: left;
+    }
+
+    .quest-img {
+        width: 100%;
+        height: 300px;
+        margin-top: 30px;
+    }
+
+    .suscribe .ancho {
+        padding: 20px;
+        text-align: center;
     }
 }
