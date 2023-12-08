@@ -64,17 +64,16 @@
         align-items: flex-start;
         flex-wrap: wrap;
         z-index: 2;
-        /* display: none; */
         top: 100%;
-        right: -100%;
+        left: -100%;
         width: 100%;
         position: absolute;
         overflow: hidden;
-        transition: all 0.5s;
+        transition: all 0.5s ease-in-out;
     }
 
     nav ul.abrirmenu {
-        right: 0;
+        left: 0;
     }
 
     .fondo {
