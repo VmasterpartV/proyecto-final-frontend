@@ -58,7 +58,7 @@
 
 .promociones h2 {
     font-size: 30px;
-    color: var(--gris2);
+    color: var(--gris);
 }
 
 .promociones p {
@@ -74,6 +74,10 @@
     border: 1px solid var(--gris2);
     border-radius: 5px;
     font-size: 14px;
+}
+
+.form input[type="submit"] {
+    margin-bottom: 0px;
 }
 
 .form textarea {
@@ -105,10 +109,6 @@
     font-weight: bold;
     padding: 12px 20px;
     text-decoration: none;
-}
-
-.form {
-    margin-bottom: 20px;
 }
 
 @media screen and (max-width: 480px) {
